@@ -36,7 +36,14 @@ References to related concepts, projects, books, websites, stories, systems, fru
 
 The parts we needed to construct were the following:
 
-The body of the device, the wheels, the motor, the feedback components (lights and sound)
+The body of the device, the wheels, the motor with light sensors, the feedback components (lights and sound).
+
+### Body
+
+For the body of the device we needed to make sure that it was light enough for the wheels to carry it and the motor to be able to drive it but also that it was strong enough to hold a beer bottle. The body needed to have just the right amount of depth for the beer bottle not to fall but to be higher than the wheels so it wouldn't touch the ground. After considering different options, we went for a frame made out of aluminium (?) that holds the inner part, which would be a 3D printed model. After carefully meassuring the different components, we created the 3D model in Autodesk Fusion and printed it.
+
+Maybe add foto vom CAD model und dem finalen here.
+
 
 ### Wheels
 
@@ -52,15 +59,24 @@ We sketched different models for only the inner part of the wheel as well, to ma
 
 Due to the tiny inaccuracy of the 3D printer or the meassurements, the inner part did not fit perfectly on the motor but some glue fixed that problem.
 
-### Iteration №1 Wheels
+### Motor
+For the motor we had to make some adjustments regarding the power of the motor and the weight of the device.
 
-### Iteration №2
+#### Iteration №1 Motor
 
-This did also not work.
+tried lego, was too weak
 
-### Iteration №3
+#### Iteration №2
 
-This worked!
+tried 1 battery, was too weak 
+
+#### Iteration №3
+
+tried 2 batteries, was perfect
+
+### Feedback components
+
+For the feedback components we decided to add some lights and sound.
 
 ## Conclusion
 
