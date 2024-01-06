@@ -34,7 +34,7 @@ References to related concepts, projects, books, websites, stories, systems, fru
 
 
 
-### Iteration №1 Wheels
+### Wheels
 
 Getting the right wheels was quiet the challenge. The inner whole of the wheel needed to have the same radius as the connecting part of the motor, which made it very challenging to find something fitting. After not being able to find the right wheel in old lego sets or even online, we have decided to 3D print the wheels ourselves.
 
