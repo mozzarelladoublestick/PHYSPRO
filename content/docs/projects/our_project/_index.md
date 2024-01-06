@@ -26,13 +26,20 @@ For the prototype we had a motor combined with a solar panel from a LEGO set in 
 {{< figure src="lego_motor.jpg" caption="*Motor in combination with a LEGO solar panel.*">}}
 {{< figure src="high_prototype.jpg" caption="*A driving device.*">}}
 
+Considering the poor feedback that the device gave to the user in the first state, we have decided to have little lights as well as a short beep that indicate that the motor has started as soon as the Shadowseeker hit the sun.
+
 ## Related work 
 
 References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.
 
 ## Implementation 
 
+The parts we needed to construct were the following:
 
+-the body of the device
+-the wheels
+-the motor
+-the feedback components (lights and sound)
 
 ### Wheels
 
