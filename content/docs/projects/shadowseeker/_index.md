@@ -36,10 +36,7 @@ References to related concepts, projects, books, websites, stories, systems, fru
 
 The parts we needed to construct were the following:
 
--the body of the device
--the wheels
--the motor
--the feedback components (lights and sound)
+The body of the device, the wheels, the motor, the feedback components (lights and sound)
 
 ### Wheels
 
