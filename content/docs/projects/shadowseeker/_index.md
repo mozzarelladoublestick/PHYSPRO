@@ -42,11 +42,13 @@ The body of the device, the wheels, the motor with light sensors, the feedback c
 
 For the body of the device we needed to make sure that it was light enough for the wheels to carry it and the motor to be able to drive it but also that it was strong enough to hold a beer bottle. The body needed to have just the right amount of depth for the beer bottle not to fall but to be higher than the wheels so it wouldn't touch the ground. After considering different options, we went for a frame made out of aluminium (?) that holds the inner part, which would be a 3D printed model. After carefully meassuring the different components, we created the 3D model in Autodesk Fusion and printed it.
 
+{{< figure src="skizze.jpg" caption="*Sketch of the spacing.*">}}
+
 {{< figure src="body_cad01.png" caption="*Top sketch of the body.*">}}
 
 {{< figure src="body_cad02.png" caption="*Lower part sketch of the body.*">}}
 
-We printed the body and were pretty happy with the result.
+We printed the body and were pretty happy with the result but decided that the aluminum frame was not needed.
 
 {{< figure src="body.jpg" caption="*Printed body.*">}}
 
