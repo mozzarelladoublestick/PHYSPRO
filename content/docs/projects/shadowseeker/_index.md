@@ -23,14 +23,15 @@ At this point it was clear that we would have to use a strong material for the w
 
 For the prototype we had a motor combined with a solar panel from a LEGO set in use which was supposed to be the Shadowseeker's power source, making sure it can only drive in the sun.
 
-{{< figure src="lego_motor.jpg" caption="*Motor in combination with a LEGO solar panel.*">}}
 {{< figure src="high_prototype.jpg" caption="*A driving device.*">}}
 
 Considering the poor feedback that the device gave to the user in the first state, we have considered to have little lights as well as a short beep that indicate that the Shadowseeker's Sensors have found the sun and the motors are ready to start.
 
 ## Related work
 
-References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.
+- remote controlled cars
+- solar panels
+- fear of warm beer
 
 ## Implementation
 
@@ -92,23 +93,29 @@ We had two lego wheels that fit on a lego axis which we used as the front wheels
 
 ### Motor
 
-For the motor we had to make some adjustments regarding the power of the motor and the weight of the device.
-
-{{< figure src="elektronik_skizze.jpg" caption="*Add caption.*">}}
-{{< figure src="elektronik_skizze02.jpg" caption="*Add caption.*">}}
-{{< figure src="motors.jpg" caption="*Add caption.*">}}
+We tried 3 different Motors to see which one would be strong enough for our project.
 
 #### Iteration №1 Motor
 
-tried lego, was too weak
+First, we tried to use a Lego Motor from a special set that worked together with solar power. However, we soon noticed that the solar panel would provide too little power and the motor provided too little torque to move the device with a bottle of beer on it.
 
 #### Iteration №2
 
-tried 1 battery, was too weak
+Next we tried to use a 2 motors with a single battery. This provided more power for one motor, but still had too little torque and the power still wasn't enough for the motor and the Arduino.
+
+{{< figure src="lego_motor.jpg" caption="*The Lego Motor and the first motor*">}}
 
 #### Iteration №3
 
-tried 2 batteries, was perfect
+So finally, we tried to use 2 batteries, one for the Arduino and one for the two motors. We also switched to a different type of motors. These motors were much stronger and had enough torque to move the entire device with a filled bottle.
+
+{{< figure src="motors.jpg" caption="*Final Motor*">}}
+
+### Electronics
+
+To connect our electronics we used a circuit board which allowed us to easily sold some of the components like the sound buzzer or the resistors together. It also made it easier to connect certain element like the photo resistors, as well as manage the connections with the Arduino.
+{{< figure src="elektronik_skizze02.jpg" caption="*Circuit connections with all components*">}}
+{{< figure src="elektronik_skizze.jpg" caption="*Circuit board circuit*">}}
 
 ### Feedback components
 
