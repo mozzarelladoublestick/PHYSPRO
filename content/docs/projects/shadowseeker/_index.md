@@ -7,7 +7,7 @@ type: docs
 
 ## Abstract
 
-After a detailed ideation process, considering different ideas for our Chindōgu, we have decided on implementing a moving device that carries a bottle of beer or another desired drink. The goal of the device is to keep the drink cold by driving into the shadow, hence the name "Shadowseeker". THe only small flaw that the Shadowseeker has, is that it can only drive in the sun.
+After a detailed ideation process, considering different ideas for our Chindōgu, we have decided on implementing a moving device that carries a bottle of beer or another desired drink. The goal of the device is to keep the drink cold by driving into the shadow, hence the name "Shadowseeker". The only small flaws that the Shadowseeker has, is that it can only drive in the sun and that it can only dirve in one direction.
 
 ## Introduction
 
@@ -26,13 +26,13 @@ For the prototype we had a motor combined with a solar panel from a LEGO set in 
 {{< figure src="lego_motor.jpg" caption="*Motor in combination with a LEGO solar panel.*">}}
 {{< figure src="high_prototype.jpg" caption="*A driving device.*">}}
 
-Considering the poor feedback that the device gave to the user in the first state, we have decided to have little lights as well as a short beep that indicate that the motor has started as soon as the Shadowseeker hit the sun.
+Considering the poor feedback that the device gave to the user in the first state, we have considered to have little lights as well as a short beep that indicate that the Shadowseeker's Sensors have found the sun and the motors are ready to start.
 
-## Related work 
+## Related work
 
 References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.
 
-## Implementation 
+## Implementation
 
 The parts we needed to construct were the following:
 
@@ -40,7 +40,7 @@ The body of the device, the wheels, the motor with light sensors, the feedback c
 
 ### Body
 
-For the body of the device we needed to make sure that it was light enough for the wheels to carry it and the motor to be able to drive it but also that it was strong enough to hold a beer bottle. The body needed to have just the right amount of depth for the beer bottle not to fall but to be higher than the wheels so it wouldn't touch the ground. After considering different options, we went for a frame made out of aluminium (?) that holds the inner part, which would be a 3D printed model. After carefully meassuring the different components, we created the 3D model in Autodesk Fusion and printed it.
+For the body of the device we needed to make sure that it was light enough to move, even with the weight of the electronics (motors, batteries), as well as the beer or beverage that should be carried. The body needed to have just the right amount of depth for the beer bottle not to fall but to be higher than the wheels so it wouldn't touch the ground. After considering different options, like an aluminium frame, we went for a simple 3D printed model. After carefully meassuring the different components, we created the 3D model in Autodesk Fusion and printed it with a PRUSA 3D printer.
 
 {{< figure src="skizze.jpg" caption="*Sketch of the spacing.*">}}
 
@@ -52,17 +52,15 @@ We printed the body and were pretty happy with the result but decided that the a
 
 {{< figure src="body.jpg" caption="*Printed body.*">}}
 
-
 We decided to glue the beer-holder-ring on the printed objects. This gave us flexibility in trying different ways to fit all the components in the small space.
 
 {{< figure src="glued_innerpart.jpg" caption="*Glued ring.*">}}
 
-We then also created a cup with a slightly smaller radius that could be put into the already existing ring to improbe stability for different sized drinks.
+This ring was bigger then our originally planned design, but we noticed that the smaller ring had problems fitting some of the beverage bottles. So now we have a bigger ring glued to the bottom, with a addon ring, which is a perfect set for holding both big and small bottles.
 
 {{< figure src="body_almost_done.jpg" caption="*Smaller radius cup.*">}}
 
 In the end we had to make some adjustment due to the small space, such as creating a hole for cables that did not fit and adding some extra padding to have more space in height.
-
 
 ### Wheels
 
@@ -92,15 +90,13 @@ We had two lego wheels that fit on a lego axis which we used as the front wheels
 
 {{< figure src="lego_axis.jpg" caption="*Lego axis.*">}}
 
-
-
 ### Motor
+
 For the motor we had to make some adjustments regarding the power of the motor and the weight of the device.
 
 {{< figure src="elektronik_skizze.jpg" caption="*Add caption.*">}}
 {{< figure src="elektronik_skizze02.jpg" caption="*Add caption.*">}}
 {{< figure src="motors.jpg" caption="*Add caption.*">}}
-
 
 #### Iteration №1 Motor
 
@@ -108,7 +104,7 @@ tried lego, was too weak
 
 #### Iteration №2
 
-tried 1 battery, was too weak 
+tried 1 battery, was too weak
 
 #### Iteration №3
 
@@ -116,16 +112,15 @@ tried 2 batteries, was perfect
 
 ### Feedback components
 
-For the feedback components we decided to add some lights and sound. 
+For the feedback components we decided to add some lights and sound.
 The sound is produced by a simple buzzer and it goes off as soon as the shadowseeker hits the light and starts driving. The same logic applies to the lights which are installed at the front of the device. We added two holes in the body to make it easy for us to place them.
+
+{{< figure src="buzzer.jpg" caption="*Buzzer.*">}}
 
 {{< figure src="lights.jpg" caption="*Light sensors and light.*">}}
 
-Due to space problems we could not push them in all the way but it still worked out fine. 
-
-Light sensors were installed to be able to only power the device when it is in the light.
-
+In the end we did struggle with space inside our box and had to leave the lights out.
 
 ## Conclusion
 
-The project was very interesting and successul. There were some challenges involved and it really revealed that investing a lot of time in planning beforehand is eventually very time-saving. The shadowseeker will be continuing to seek shadows and delivering beer. 
+The project was very interesting and successul. There were some challenges involved and it really revealed that investing a lot of time in planning beforehand is eventually very time-saving. The shadowseeker will be continuing to seek shadows and delivering beer.
