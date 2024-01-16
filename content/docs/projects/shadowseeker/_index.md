@@ -41,7 +41,7 @@ The body of the device, the wheels, the motor with light sensors, the feedback c
 
 ### Body
 
-For the body of the device we needed to make sure that it was light enough to move, even with the weight of the electronics (motors, batteries), as well as the beer or beverage that should be carried. The body needed to have just the right amount of depth for the beer bottle not to fall but to be higher than the wheels so it wouldn't touch the ground. After considering different options, like an aluminium frame, we went for a simple 3D printed model. After carefully meassuring the different components, we created the 3D model in Autodesk Fusion and printed it with a PRUSA 3D printer.
+For the body of the device we needed to make sure that it was light enough to move, even with the weight of the electronics (motors, batteries), as well as the beer or beverage that should be carried. The body needed to have just the right amount of depth for the beer bottle not to fall but to be higher than the wheels so it wouldn't touch the ground. After considering different options, like an aluminium frame, we went for a simple 3D printed model. After carefully meassuring the different components, we created the 3D model in Autodesk Fusion and printed it with the PRUSA i3 MK3S+ 3D printer.
 
 {{< figure src="skizze.jpg" caption="*Sketch of the spacing.*">}}
 
